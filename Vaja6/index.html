@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sončni sistem</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #1e3c72, #2a5298);
+            color: white;
+            text-align: center;
+            background-image: url(dow.jpg);
+        }
+        header {
+            background: #111;
+            color: white;
+            padding: 20px;
+            font-size: 28px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .menu {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            padding: 0 20px;
+        }
+        .menu ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        .menu li {
+            margin: 0 15px;
+            font-size: 16px;
+        }
+        .container {
+            margin: 40px auto;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+            width: 80%;
+            max-width: 900px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+        .planet {
+            margin: 20px 0;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.4);
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+        h2, h3, h4 {
+            color: #FFD700;
+        }
+        #Zanimivosti {
+            background: rgba(255, 215, 0, 0.2);
+            padding: 20px;
+            border-radius: 15px;
+        }
+        footer {
+            background: #111;
+            color: white;
+            padding: 15px;
+            margin-top: 30px;
+            font-size: 14px;
+            box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.5);
+        }
+        ul {
+            text-align: left;
+            display: inline-block;
+        }
+        li a{
+            text-decoration: none;
+            color: white;
+        }
+        li a:hover{
+            background-image: url(slika3.png);
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <ul>
+                <li><a href="https://sl.wikipedia.org/wiki/Oson%C4%8Dje">Več o planetih</a></li>
+            </ul>
+            <span>Sončni sistem</span>
+            <ul>
+                <li>Vprašaj Zvezdkota!</li>
+            </ul>
+        </div>
+    </header>
+    <div class="container">
+        <h2>O našem osončju</h2>
+        <img src="slika.png" alt="Sončni sistem">
+        
+        <h3>Planeti v našem osončju</h3>
+        <div class="planet">
+            <h4>Merkur</h4>
+            <p>Merkur je najmanjši planet v Sončnem sistemu in najbližji Soncu. Zaradi svoje bližine Soncu ima zelo visoke temperature podnevi, medtem ko se ponoči močno ohladi. Njegova površina je posejana s kraterji, podobno kot na Luni, saj nima atmosfere, ki bi ga ščitila pred udarci meteoritov.</p>
+        </div>
+        <div class="planet">
+            <h4>Venera</h4>
+            <p>Venera je drugi planet od Sonca in je pogosto imenovana "sestrski planet" Zemlje zaradi podobne velikosti in sestave. Njena atmosfera je izredno gosta in sestavljena pretežno iz ogljikovega dioksida, kar povzroča močan učinek tople grede.</p>
+        </div>
+        <div class="planet">
+            <h4>Zemlja</h4>
+            <p>Zemlja je edini planet v Sončnem sistemu, za katerega vemo, da podpira življenje. Ima obilico tekoče vode, ki prekriva približno 71 % njene površine. Zemljina atmosfera vsebuje kisik, potreben za dihanje, in je zaščitena z magnetnim poljem.</p>
+        </div>
+        <div class="planet">
+            <h4>Mars</h4>
+            <p>Mars, znan tudi kot "Rdeči planet", svojo značilno barvo dolguje železovemu oksidu (rji) na svoji površini. Ima tanke plasti atmosfere, ki jo pretežno sestavlja ogljikov dioksid, zaradi česar so temperature nizke in pogoji ekstremni.</p>
+        </div>
+        <div id="Zanimivosti">
+            <h3>Zanimivosti o Sončnem sistemu</h3>
+            <ul>
+                <li>Jupiter je največji planet v Sončnem sistemu.</li>
+                <li>Saturn je znan po svojih spektakularnih obročih.</li>
+                <li>Uran se vrti na svoji strani, kar je edinstveno med planeti.</li>
+                <li>Neptun je najbolj oddaljen planet in ima močne vetrove.</li>
+            </ul>
+        </div>
+    </div>
+    <footer>&copy; 2025 Šolski projekt</footer>
+</body>
+</html>
